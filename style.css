@@ -219,3 +219,47 @@ tr:hover {
     content: "\f1d8"; /* Font Awesome envelope icon */
     font-size: 1.2em;
 }
+/* Responsive Header Background Image */
+header {
+    width: 100%;
+    min-height: 400px;
+    padding-top: 3em;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+#home header {
+    background: url(images/cliff_ocean.jpg) no-repeat center center/cover;
+}
+
+#activity header {
+    background: url(images/runfly.jpg) no-repeat center center/cover;
+}
+
+#contact header {
+    background: url(images/cliff_rock.jpg) no-repeat center center/cover;
+}
+
+#cliffs header {
+    background: url(images/forest_cliff.jpg) no-repeat center center/cover;
+}
+
+/* Make tables responsive */
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Ensure form is responsive */
+form input, form select, form textarea {
+    width: 100% !important;
+}
+
+/* Adjust form layout on smaller screens */
+@media (max-width: 576px) {
+    form {
+        padding: 10px;
+    }
+}
