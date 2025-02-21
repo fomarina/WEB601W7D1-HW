@@ -1,0 +1,221 @@
+/* General styles */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #3E2723;
+    color: #f8f9fa;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #5D4037 !important;
+}
+
+/* Footer */
+footer {
+    background-color: #4E342E;
+    padding: 20px;
+    text-align: center;
+    font-size: 1rem;
+    color: #f8f9fa;
+}
+
+/* Table styling */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    background-color: #4E342E;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+th, td {
+    border: 2px solid black;
+    padding: 10px;
+}
+th {
+    background-color: #6D4C41;
+}
+
+/* Contact Form */
+.contact-form {
+    background-color: #4E342E;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Blog styling */
+.blog-post {
+    background-color: #4E342E;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.3);
+}
+
+.blog-post h2 {
+    color: #FFCC80;
+}
+
+.blog-post a {
+    color: #FFAB40;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* Improved Table Styling */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    background-color: #4E342E;
+    color: white;
+    text-align: center;
+}
+
+th, td {
+    padding: 15px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+th {
+    background: linear-gradient(to right, #6D4C41, #8D6E63);
+    color: #FFCC80;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+tr:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.category {
+    background-color: #8D6E63;
+    font-weight: bold;
+    color: #FFD180;
+    font-size: 1.2em;
+}
+
+.category td {
+    padding: 20px;
+}
+/* Improved Table Styling with Alignment Fixes */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    background-color: #4E342E;
+    color: white;
+    text-align: center;
+}
+
+th, td {
+    padding: 15px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    text-align: left; /* Align text to the left for better readability */
+}
+
+th {
+    background: linear-gradient(to right, #6D4C41, #8D6E63);
+    color: #FFCC80;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center; /* Center align the table headers */
+}
+
+tr:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.category {
+    background-color: #8D6E63;
+    font-weight: bold;
+    color: #FFD180;
+    font-size: 1.2em;
+    text-align: center; /* Center align the category headers */
+}
+
+.category td {
+    padding: 20px;
+}
+/* Sticky Navbar */
+.navbar {
+    background-color: rgba(38, 41, 61, 0.7) !important; /* Updated color */
+}
+
+.navbar a {
+    color: rgb(255, 255, 255) !important; /* Ensure text is white */
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5) !important; /* White border for button */
+}
+
+.sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+
+/* Responsive Partners Section */
+#partners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2em 0;
+}
+
+.partner {
+    padding: 1em;
+    text-align: center;
+}
+
+/* Responsive Grid for Partners */
+@media (max-width: 576px) {
+    .partner {
+        width: 100%; /* Stack at XS */
+    }
+}
+@media (min-width: 576px) {
+    .partner {
+        width: 50%; /* Two in a row at SM */
+    }
+}
+@media (min-width: 768px) {
+    .partner {
+        width: 33.33%; /* Three in a row at MD */
+    }
+}
+@media (min-width: 992px) {
+    .partner {
+        width: 16.66%; /* Six in a row at LG */
+    }
+}
+
+/* Bootstrap Button for Form */
+.button input[type="submit"] {
+    background: none;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.button input[type="submit"]::before {
+    font-family: "FontAwesome";
+    content: "\f1d8"; /* Font Awesome envelope icon */
+    font-size: 1.2em;
+}
